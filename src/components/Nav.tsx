@@ -2,7 +2,7 @@ import Logo from "../assets/Background+Shadow.png"
 
 const Nav = () => {
     return (
-        <div className=" bg-red-100 mt-2 ">
+        <div className=" bg-red-100 mt-4 ">
             <nav className="flex justify-between container mx-auto pt-2 pb-2 font-bold items-center">
       <div className="left flex gap-2 ">
           <img src={Logo} alt="" /><h1 className="text-2xl">Dev <span className="text-red-500">Stack</span></h1>

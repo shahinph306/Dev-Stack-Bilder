@@ -1,7 +1,7 @@
 
 import { Suspense } from "react";
 import Banner from "./components/Banner"
-import Dtails from "./components/JSON/Dtails";
+import Dtails from "./components/Technology/Dtails";
 import Nav from "./components/Nav"
 import type { IDetails } from "./Types/DetailsType";
 import FooterSction from "./components/FooterSction";
