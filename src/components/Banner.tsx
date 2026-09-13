@@ -2,9 +2,9 @@ import Image from "../assets/Container.png"
 
 const Banner = () => {
     return (
-        <div className=" bg-amber-200">
+        <div >
             <div className="banner flex justify-between container mx-auto pt-20">
-                  <div className="banner-left bg-amber-100 w-200">
+                  <div className="banner-left  w-200">
                       <h1 className="text-6xl">Build Your Ideal</h1>
                  <span className="text-6xl bg-linear-to-r from-pink-500 via-red-500 to-purple-600 bg-clip-text text-transparent">Development Stack</span>
 
