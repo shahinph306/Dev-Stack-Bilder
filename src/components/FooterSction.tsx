@@ -1,4 +1,3 @@
-import React from 'react';
 import Logo from "../assets/Background+Shadow.png"
 
 const FooterSction = () => {

@@ -5,6 +5,8 @@ import Dtails from "./components/Technology/Dtails";
 import Nav from "./components/Nav"
 import type { IDetails } from "./Types/DetailsType";
 import FooterSction from "./components/FooterSction";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 
 
@@ -25,6 +27,7 @@ const detailsPromise =  detailsFetch();
     <>
     <Nav></Nav>
     <Banner></Banner>
+    <ToastContainer position="top-right" autoClose={3000} />
     <Suspense fallback = { <h2>Loading......</h2>}>
       <Dtails detailsPromise ={detailsPromise}></Dtails>
     </Suspense>
