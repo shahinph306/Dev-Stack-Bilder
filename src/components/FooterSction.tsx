@@ -44,7 +44,13 @@ const FooterSction = () => {
                     </div>
                 </div>
             </div>
-             <h2 className='text-gray-500 container mx-auto mt-6 font-semibold'>@ 2026 Dev Stack. All rights reserved.</h2>
+            <div className="Reservation_Policy flex justify-between text-gray-500 container mx-auto my-10 font-semibold'">
+                 <h2>@ 2026 Dev Stack. All rights reserved.</h2> 
+                 <div className="privacy-terms flex justify-between gap-10">
+                    <h2>Privacy</h2>
+                    <h2>Terms</h2>
+                 </div>
+            </div>
         </div>
     );
 };
