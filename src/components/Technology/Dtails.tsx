@@ -27,7 +27,7 @@ const Dtails = ({ detailsPromise }: DetailsProps) => {
   const addToStack = (tech: IDetails) => {
     if (!selectedStack.some(item => item.id === tech.id)) {
       setSelectedStack([...selectedStack, tech]);
-      toast.success(`${tech.name} added to Stack!`, {
+      toast.success(`✅ ${tech.name} added to Stack!`, {
         position: "top-right",
         autoClose: 2500,
       });

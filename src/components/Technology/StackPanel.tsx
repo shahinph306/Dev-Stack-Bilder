@@ -38,9 +38,7 @@ const StackPanel = ({ selectedStack, onRemove, onRemoveAll }: StackPanelProps) =
                 <button
                   onClick={() => onRemove(item.id)}
                   className="text-gray-400 hover:text-red-500 transition-colors text-lg leading-none"
-                >
-                
-                </button>
+                > ✕</button>
               </div>
             ))}
           </div>
